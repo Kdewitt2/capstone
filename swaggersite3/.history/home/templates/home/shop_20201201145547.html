@@ -1,0 +1,17 @@
+{% extends "home/base.html" %}
+{% block content %}
+    {% for product in products %}
+        <a class = "row rowblock" style = "color:black" href = "{% url 'product-detail' product.id %}">
+            <div class="col-8">
+                <h1>{{ product.name }}</h1>
+                <small>${{ product.price }}</small>
+                <p>{{ product.description }}</p>
+            </div>
+            <div class="col-4 prodimg">
+                <img src="{{ product.image.url }}">
+            </div>
+        </a>
+    {% endfor %}
+{% endblock content %}
+
+

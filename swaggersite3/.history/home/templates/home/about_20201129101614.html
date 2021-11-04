@@ -1,0 +1,17 @@
+{% extends "home/base.html" %}
+{% load static %}
+{% block content %}
+    {% for about in aboutposts %}
+        <div class="homePost">
+            <div class="row">
+                <div class="col-9">
+                    <h1>{{ about.title }}</h1>
+                    <p>{{ about.description }}</p>
+                </div>
+                <div class="col-3 ">
+                    <img src="{{ post.image.url }}">
+                </div>
+            </div>
+        </div>
+    {% endfor %}
+{% endblock content %}

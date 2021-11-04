@@ -1,0 +1,202 @@
+/************************/
+/*****Global styling*****/
+/************************/
+* {
+    margin: 0;
+    padding: 0;
+}
+/* 
+* img {
+    height: 170px;
+    width:200px;
+    object-fit: scale-down;
+    margin-left: auto;
+    margin-right: auto;
+}
+*/
+html, body {
+    height: 100%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.container {
+    background-color: rgba(26, 138, 45, 0.603);
+}
+#main {
+    display: block;
+    overflow: auto;
+    min-height: 80%;
+    padding: 2%;
+    padding-top: 1%;
+    padding-bottom: 75px;
+}
+#logobar {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    width: 100%;
+}
+#logo {
+    object-fit: fill;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+
+/***********************/
+/******Login Links******/
+/***********************/
+.login {
+    float: right;
+    margin-right: 2%;
+    margin-top: 1%;
+    list-style-type: none;
+}
+.login a {
+    text-decoration: none;
+    color: aliceblue;
+}
+.login ul {
+    color: aliceblue;
+    font-weight: bold;
+    padding-top: 5px;
+}
+.login a:hover {
+    color: blueviolet;
+    text-decoration: underline;
+}
+
+/***********************/
+/********Nav Bar********/
+/***********************/
+nav {
+    background-color: rgba(84, 133, 62, 0.815);
+}
+nav a{
+    object-fit: scale-down;
+    padding: 1.5%;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    background-color: rgba(84, 133, 62, 0.815);
+    color: black
+}
+nav a:hover {
+    background-color: darkslategrey;
+    color:black;
+}
+
+/************************/
+/*****Footer styling*****/
+/************************/
+#footer {
+    background-color: bisque;
+    position: relative;
+    height: 75px;
+    margin-top: -75px;
+}
+footer p {
+    font-size: 13px;
+    font-weight: bold;
+    color: darkslategrey; 
+}
+footer a:hover {
+    font-weight: bold;
+    color: lightslategray;
+}
+
+/************************/
+/*******Home Post********/
+/************************/
+.homePost {
+    max-width: 100%;
+    padding: 2%;
+    border-radius: 10px 30px;
+    background-color: rgba(209, 76, 76, 0.993);
+    overflow: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.homePost img {
+    float: left;
+    padding: 1%;
+}
+.homePost p {
+    position: center;
+    top: 50%;
+}
+
+/************************/
+/***About Item styling***/
+/************************/
+.aboutitem {
+    max-height: fit-content;
+    margin-top: 5%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    padding: 4%;
+    border-radius: 10px 30px;
+    background-color: brown;
+    overflow: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.aboutItem img {
+    max-height: 18%;
+    max-width: 18%;
+    float: left;
+    padding: 1%;
+}
+.aboutItem p {
+    position: center;
+    top: 50%;
+}
+
+/************************/
+/******Row Container*****/
+/************************/
+.rowblock {
+    min-height: 175px;
+    max-width: 90%;
+    padding: 15px;
+    margin-top: 15px;
+    border: 3px solid red;
+    border-radius: 10px 30px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.rowblock a:hover {
+    border: 10px solid red;
+    box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/************************/
+/*****Product Image******/
+/************************/
+.prodimg {
+    max-height: 170px;
+    max-width: 200px;
+    background-color: pink;
+    float: right;
+    border-radius: 10px;
+}
+
+.prodimg img {
+    height: 170px;
+    width:200px;
+    object-fit: scale-down;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/*********************/
+/****Unused Styles?***/
+/*********************/
+
+/************************/
+/**Product Description***/
+/************************
+.prodp {
+    width:66%;
+    height:66%;
+    float: inline-start;
+}

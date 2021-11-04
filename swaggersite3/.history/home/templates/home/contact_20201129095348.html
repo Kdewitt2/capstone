@@ -1,0 +1,17 @@
+{% extends "home/base.html" %}
+{% load static %}
+{% block content %}
+    {% for contact in contacts %}
+        <div class="homePost">
+            <div class="row">
+                <div class="col-9">
+                    <p>{{ contact.title }}</p>
+                    <p>{{ contact.phone }}</p>
+                    <p>{{ contact.email }}</p>
+                    <p>{{ contact.address }}</p>
+                </div>
+            </div>
+        </div>
+    {% endfor %}
+
+{% endblock content %}
